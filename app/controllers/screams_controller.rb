@@ -1,0 +1,2 @@
+class ScreamsController < ApplicationController
+end

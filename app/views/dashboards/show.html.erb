@@ -1,1 +1,6 @@
-Dashboard
+<%= form_for @scream do |f| %>
+  <%= f.textfield :body, placeholder: 'Scream something here'%>
+  <%= f.submit 'Scream!'%>
+<% end %>
+
+<%= render @screams %>
